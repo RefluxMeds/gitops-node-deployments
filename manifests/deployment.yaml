@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: mochalabs
-          image: docker.io/refluxmeds/mochalabs:13fbce5c
+          image: docker.io/refluxmeds/mochalabs:c544f38d
           ports:
             - containerPort: 8000
           livenessProbe:
